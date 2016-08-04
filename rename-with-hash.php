@@ -24,8 +24,8 @@ function rename_file($replace_name, $new_name, $file){
     <th>New Name</th>
   </tr>
 <?php
-    define('Path', '/Users/yasirtaher/Documents/Projects/rename-file-hash/files/' ); //change path with your own
-    $dir = '/Users/yasirtaher/Documents/Projects/rename-file-hash/files/'; //change path with your own
+    define('Path', '/rename-file/files/' ); //change path with your own
+    $dir = '/rename-file/files/'; //change path with your own
     $files = scandir($dir);
     arsort($files);
     foreach ($files as $file) {
